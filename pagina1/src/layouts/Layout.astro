@@ -1,0 +1,93 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<div class="flex items-center py-3">
+			<header class="flex justify-between container max-w-6xl mx-auto">
+				<h1 class="font-semibold text-2xl">POFO</h1>
+				<menu>
+					<ul class="space-x-12 flex mt-2">
+						<li><a href="#" class="inline">Home</a></li>
+						<li><a href="#" class="inline">Pages</a></li>
+						<li><a href="#" class="inline">Portafolio</a></li>
+						<li><a href="#" class="inline">Bloc</a></li>
+						<li><a href="#" class="inline">Elements</a></li>
+						<li><a href="#" class="inline">Features</a></li>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+						  </svg>
+					</ul>
+				</menu>
+			</header>
+		</div>
+		<div class="flex items-center justify-center bg-[url('https://www.harvardcollect.com/wp-content/uploads/2018/08/Delinquent-Account-Resolution.jpg')] bg-cover bg-no-repeat bg-center h-80 text center">
+			<div class="text-white">
+				<p class="px-32">ksjakjdajfaidijfidjfiadjfdjfjladfjafdkvn</p>
+				<h1 class="text-4xl font-semibold mb-4">CRAFTING DIGITAL EXPERIENCES</h1>
+				<span class="bg-white text-slate-900 rounded-full px-3 py-2 text-center">Hola :)</span>
+			</div>
+			
+		</div>
+		<div class="flex justify-center mt-28 container">
+			<div class="space-y-2 text-center">
+				<h6 class="text-xs text-slate-600">khgyjgyjhghbjgb</h6>
+				<p class="max-w-2xl text-slate-800">We always stay with our 
+					<span class="font-semibold">clients and respect</span>
+					 their business. We deliver 100% and provide instant 
+					response to help them succed in constantly changing and
+					 <span class="font-semibold">challenging business world</span>
+				</p>
+
+			</div>
+		</div>
+		<div class="grid grid-cols-3 gap-4 mx-auto mt-12 w-3/5">
+			<div class="bg-[url('https://www.insights.la/wp-content/uploads/2015/05/mujeres-hablando.jpg')] bg-center bg-cover h-52"></div>
+			<div class="bg-[url('https://image.freepik.com/foto-gratis/sonriente-joven-apuesto-hombre-trabajando-en-la-computadora-portatil_1262-5733.jpg')] bg-cover bg-center h-52"></div>
+			<div class="bg-[url('https://cdn-images.the-express.com/img/dynamic/25/590x/secondary/walmartsummer1-7289.jpg?r=1685448682642')] bg-cover bg-center"></div>
+		</div>
+
+		<div class="grid grid-cols-3 h-64 gap-4 mx-auto text-center w-3/5">
+			<div class="bg-white space-y-4">
+				<p class="font-semibold mt-5">Título</p>
+				<p>Texto aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+				<button class="border-2 border-black py-2 px-3 rounded-3xl">Click aquí para más</button>
+			</div>
+			<div class="bg-white space-y-4">
+				<p class="font-semibold mt-5">Título</p>
+				<p>Texto aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+				<button class="border-2 border-black py-2 px-3 rounded-3xl">Click aquí para más</button>
+			</div>
+			<div class="bg-white space-y-4">
+				<p class="font-semibold mt-5">Título</p>
+				<p>Texto aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+				<button class="border-2 border-black py-2 px-3 rounded-3xl">Click aquí para más</button>
+			</div>
+		
+		</div>
+		
+
+
+
+
+
+
+
+		<!-- <slot /> -->
+	</body>
+</html>
+
